@@ -1,10 +1,10 @@
 # Site settings
-title: 3D Vision
+title: Machine Learning for Signal Processing
 description: >
-  Lecture notes on the graduate course 3D Vision @ Universidad Tecnológica de Bolívar
+  Lecture notes on the graduate course Machine Learning for Signal Processing @ Universidad Tecnológica de Bolívar
 
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "https://opi-lab.github.io/3d-vision/" # the base hostname & protocol for your site
+url: "https://opi-lab.github.io/ml4sp/" # the base hostname & protocol for your site
 
 #source: /
 # destination: /_site/
