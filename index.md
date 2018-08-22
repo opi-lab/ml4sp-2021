@@ -1,31 +1,40 @@
 ---
 layout: default
-title: 3D Vision
+title: Machine Learning for Signal Processing
 ---
 
-# 3D Vision
+# Machine Learning for Signal Processing
 
-### Second semester 2017
+### Second semester 2018
 
 Andrés Marrugo, PhD       
 *Universidad Tecnológica de Bolívar*
 
 ##  Aims and Scope
 
-This course covers the main techniques of 3D data acquisition, both passive (stereoscopic vision and multiple views) and active (active triangulation by structured light). The camera calibration process and the use of the geometric constraints of stereo systems are studied in detail in order to obtain adequate correspondences. Finally, the post-processing stages of three-dimensional vision systems are discussed: the representation of 3D images (e.g. through meshes, depth maps etc.), the extraction of characteristics and the recognition of 3D objects.
+# Machine Learning for Signal Processing
 
-In this course the student will obtain proficiency in the fundamentals of stereo vision systems, the calibration of cameras, the geometric restrictions of stereoscopic systems (epipolar line, fundamental matrix, etc.) and carrying out the software implementation in simple applications. In addition, the student will learn the main active techniques of 3D image acquisition (active triangulation by structured light, and the basics of kinect, among others). Finally, different forms of representation of 3D images and their use in problems of computer vision will be presented.
+### Second semester 2018
 
+Andrés Marrugo, PhD
+*Universidad Tecnológica de Bolívar*
+
+##  Aims and Scope
+
+Signal Processing deals with the extraction of information from signals of various kinds. This process has two distinct aspects: characterization, and categorization. Traditionally, signal characterization has been performed with mathematically-driven transforms and operations, whereas categorization and classification are operations associated with the use of statistical tools.
+
+Machine learning uses statistical techniques to design algorithms that give computer systems the ability to learn about the state of the world directly from data. In the context of Computer Science, to learn can be explicitly defined as to improve performance on a specific task progressively, without being explicitly programmed. An increasingly popular trend has been to develop and apply machine learning algorithms to both aspects of signal processing.
+
+In this course, we discuss the use of machine learning techniques to process signals. We cover a variety of topics, from data-driven approaches for characterization of signals such as audio including speech, images and video, and machine learning methods for a variety of speech and image processing problems.
+
+In this course, the student will obtain proficiency in:
+
+- Machine learning concepts: methods of modeling, estimation, classification, and prediction.
+- In sound processing: such as denoising and separating sounds in mixtures.
+- In image processing and computer vision: such as image restoration,
+object detection, recognition, biometrics.
+- In carrying out the software implementation in simple applications.
 Prior knowledge of this course includes probability, linear algebra, and calculus. Programming experience in MATLAB is desirable, but not required.
-
-
-<!-- This semester course is an introduction to computer vision. It is aimed at graduate students in the Faculty of Engineering. We will focus on the practical and theoretical aspects of techniques in computer vision. -->
-
-<!-- At the end of the lectures, one would be able to:
-
-- Have clear idea of challenges in computer vision due to increasing use in mobile applications.
-- Understand many different computer vision algorithms and approaches.
-- Implement computer vision algorithms for mid-level vision tasks. -->
 
 
 ## Useful Resources
@@ -54,12 +63,12 @@ This is a new course, this website will be updated as we go along.
 
 ### Lecture 1: Introduction and Linear Algebra Resfresher 
 
-We will be discussing the main aspects and motivation for 3D computer vision. Also a brief overview of the Linear Algebra involved in the course.
+We will be discussing the main aspects and motivation for using ML techniques in Signal Processing. Also a brief overview of the Linear Algebra involved in the course.
 
-- [Lecture 1 slides](https://www.dropbox.com/s/ebnty9s447enxsw/lec01_intro.pptx?dl=0)      
-- [Linear Algebra slides](https://www.dropbox.com/s/7c3ntm6ohw6ld9w/cs131_linalg_review.pptx?dl=0)
+- [Lecture 1 slides](https://www.dropbox.com/s/tjqtjjfxhwcgf92/Class1.Introduction.pdf?dl=0)      
+<!-- - [Linear Algebra slides](https://www.dropbox.com/s/7c3ntm6ohw6ld9w/cs131_linalg_review.pptx?dl=0) -->
 
-### Assignment 1
+<!--### Assignment 1
 
 A summary of Linear Algebra and Probability exercises. **Due date:** 2017-08-25.
 
@@ -69,9 +78,9 @@ A summary of Linear Algebra and Probability exercises. **Due date:** 2017-08-25.
 
 We will be studying the main aspects about image formation, the pinhole camera model and image sensors.
 
-- [Lecture 2 slides](https://www.dropbox.com/s/i689m1hk7iuqdm0/lec02_SensorsAndImageFormation.pptx?dl=0) 
-- [Lecture 2  slides - other sensors](https://www.dropbox.com/s/a05dzdgus3febaw/lec02a_OtherSensors.pptx?dl=0)      
-- [Lecture 2 slides - examples](https://www.dropbox.com/s/566dawx0cetpkew/lec02_SensorsAndImageFormation-examples.pptx?dl=0)      
+- [Lecture 2 slides](https://www.dropbox.com/s/i689m1hk7iuqdm0/lec02_SensorsAndImageFormation.pptx?dl=0)
+- [Lecture 2  slides - other sensors](https://www.dropbox.com/s/a05dzdgus3febaw/lec02a_OtherSensors.pptx?dl=0)
+- [Lecture 2 slides - examples](https://www.dropbox.com/s/566dawx0cetpkew/lec02_SensorsAndImageFormation-examples.pptx?dl=0)
 
 #### Reading
 
@@ -91,14 +100,14 @@ Matlab basics and image formation. **Due date:** 2017-09-03.
 
 In this lecture we introduce 2D coordinate transforms.
 
-- [Lecture 3 slides](https://www.dropbox.com/s/2vq3c0jemu94585/lec03-2Dto2DcoordinateTransforms.pdf?dl=0) 
+- [Lecture 3 slides](https://www.dropbox.com/s/2vq3c0jemu94585/lec03-2Dto2DcoordinateTransforms.pdf?dl=0)
 
 ### Lecture 4: 3D-3D Coordinate transforms
 
 In this lecture we introduce 3D coordinate transforms.
 
-- [Lecture 4 slides](https://www.dropbox.com/s/lpdrc7i5y3cpij5/lec04-3Dto3DTransforms.pdf?dl=0) 
-- [3D Rotations](https://www.dropbox.com/s/tk73giauh9c4okl/lec04a-3DRotations.pdf?dl=0) 
+- [Lecture 4 slides](https://www.dropbox.com/s/lpdrc7i5y3cpij5/lec04-3Dto3DTransforms.pdf?dl=0)
+- [3D Rotations](https://www.dropbox.com/s/tk73giauh9c4okl/lec04a-3DRotations.pdf?dl=0)
 - [3D Rotations example](https://www.dropbox.com/s/4y9577e2nzae4cx/lec04-3Dto3DTransforms-examples.pdf?dl=0)
 
 #### Code
@@ -111,7 +120,7 @@ In this lecture we introduce 3D coordinate transforms.
 
 - [J Craig - chap 2 ](https://www.dropbox.com/s/za66l0wj990qrs4/JCraig-Intro-Robotics-chap2.pdf?dl=0)
 
-### Quiz 
+### Quiz
 
 **2017-09-08** Quiz on Coordinate transforms.
 
@@ -253,7 +262,7 @@ In this lecture we will discuss the direct estimation of a camera pose using mat
 
 ### <mark>Projects</mark>
 
-In this course you are required to complete a short project, similar to the assignments, but you are free to choose the approach and the implementation. You will work in teams of two and you will deliver a project report in the IEEE paper format and a 15 minute presentation. 
+In this course you are required to complete a short project, similar to the assignments, but you are free to choose the approach and the implementation. You will work in teams of two and you will deliver a project report in the IEEE paper format and a 15 minute presentation.
 
 **The project is due December 15th.**
 
@@ -307,7 +316,7 @@ In this lecture we will discuss structured light systems.
 
 ### Final exam
 
-The exam is 3 hours and you may use any resources, (MATLAB, Books, slides, etc.). However, provide full answers. These may be done by hand and scanned. Please make everything as clear as possible. 
+The exam is 3 hours and you may use any resources, (MATLAB, Books, slides, etc.). However, provide full answers. These may be done by hand and scanned. Please make everything as clear as possible.
 
 - [Exam]({{site.url}}pdfs/exam-vision-3D.pdf)
 - [Upload link](https://www.dropbox.com/request/l62BNcI5xKkIm7svacno)
@@ -516,4 +525,4 @@ The goal of this assignment is to implement robust homography and fundamental ma
 
 - [Homography estimation](https://www.dropbox.com/s/eqdbgotv1n82yz1/ex1.pdf?dl=0)
 - [Hartley and Zisserman - chapter 4](https://www.dropbox.com/s/ujqmwe6u8vrndr2/Richard%20Hartley%20Andrew%20Zisserman-Multiple%20View%20Geometry%20in%20Computer%20Vision%2C%202nd%20Edition%20%282004%29.pdf?dl=0)
- -->
+ --> -->
