@@ -70,6 +70,20 @@ We will be discussing the main aspects and motivation for using ML techniques in
    
 <!-- - [Linear Algebra slides](https://www.dropbox.com/s/7c3ntm6ohw6ld9w/cs131_linalg_review.pptx?dl=0) -->
 
+
+
+
+
+### Lecture 2: Linear Algebra Refresher
+We will be reviewing the fundamentals of Linear Algebra.
+
+- [Lecture 2 slides](https://www.dropbox.com/s/zsh79xvaassbyg2/Class2.LinearAlgebra.pdf?dl=0)
+
+### Assignment 1
+A summary of Linear Algebra exercises. **Due date:** 2017-09-14.
+
+
+
 <!--### Assignment 1
 
 A summary of Linear Algebra and Probability exercises. **Due date:** 2017-08-25.
