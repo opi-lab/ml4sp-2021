@@ -21,16 +21,16 @@ For transcription, you will have to determine the note or set of notes being pla
 ### Blowin' in the wind 
 [\[This file\]][data] contains a recording of a harmonica piece rendering the song "Blowin' in the wind". Also given are a collection of notes, and an example of musical scale. Transcribe both the musical scale and the main song in terms of notes.
 
-[data]: assignment1/MLSP_HW1_data.tgz
+[data]: a1/MLSP_HW1_data.tgz
 
 [\[wav\]][wav] version of music_extract.mp3
 
-[wav]: assignment1/music_extract.wav
+[wav]: a1/music_extract.wav
 
 ### Polyushka Polye
 [\[This\]][polye] is a recording of "Polyushka Polye", played on the harmonica. 
 
-[polye]: assignment1/polyushka.wav
+[polye]: a1/polyushka.wav
 
 Below are a set of notes from a harmonica 
 
@@ -44,62 +44,62 @@ Below are a set of notes from a harmonica
 
 <tr>
 <td> E</td>
-<td> <a href="assignment1/e.wav"> e.wav </a></td>
+<td> <a href="a1/e.wav"> e.wav </a></td>
 </tr>
 
 <tr>
 <td> F</td>
-<td> <a href="assignment1/f.wav"> f.wav </a></td>
+<td> <a href="a1/f.wav"> f.wav </a></td>
 </tr>
 
 <tr>
 <td> G</td>
-<td> <a href="assignment1/g.wav"> g.wav </a></td>
+<td> <a href="a1/g.wav"> g.wav </a></td>
 </tr>
 
 <tr>
 <td> A</td>
-<td> <a href="assignment1/a.wav"> a.wav </a></td>
+<td> <a href="a1/a.wav"> a.wav </a></td>
 </tr>
 
 <tr>
 <td> B</td>
-<td> <a href="assignment1/b.wav"> b.wav </a></td>
+<td> <a href="a1/b.wav"> b.wav </a></td>
 </tr>
 
 <tr>
 <td> C</td>
-<td> <a href="assignment1/c.wav"> c.wav </a></td>
+<td> <a href="a1/c.wav"> c.wav </a></td>
 </tr>
 
 <tr>
 <td> D</td>
-<td> <a href="assignment1/d.wav"> d.wav </a></td>
+<td> <a href="a1/d.wav"> d.wav </a></td>
 </tr>
 
 <tr>
 <td> E2</td>
-<td> <a href="assignment1/e2.wav"> e2.wav </a></td>
+<td> <a href="a1/e2.wav"> e2.wav </a></td>
 </tr>
 
 <tr>
 <td> F2</td>
-<td> <a href="assignment1/f2.wav"> f2.wav </a></td>
+<td> <a href="a1/f2.wav"> f2.wav </a></td>
 </tr>
 
 <tr>
 <td> G2</td>
-<td> <a href="assignment1/g2.wav"> g2.wav </a></td>
+<td> <a href="a1/g2.wav"> g2.wav </a></td>
 </tr>
 
 <tr>
 <td> A2</td>
-<td> <a href="assignment1/a2.wav"> a2.wav </a></td>
+<td> <a href="a1/a2.wav"> a2.wav </a></td>
 </tr>
 
 </table>
 
-<p><b>Download the following matlab files: <a href="assignment1/stft.m">[stft.m]</a> </b></p>
+**Download the following matlab files:[\[stft.m\]](a1/stft.m)**
 
 <h3>Matlab Instructions</h3>
 
