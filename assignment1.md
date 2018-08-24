@@ -103,7 +103,7 @@ Below are a set of notes from a harmonica
 
 <h3>Matlab Instructions</h3>
 
-You can read a wav file into matlab as follows: 
+You can read a wav file into Matlab as follows: 
 
 	[s,fs] = wavread('filename');
 	s = resample(s,16000,fs)
@@ -146,30 +146,32 @@ You can use the notes and the transcription matrix thus obtained to synthesize a
 
 <h3>Linear Algebra</h3>
   
-Let's warm up with a simple problem. 
+<!-- Let's warm up with a simple problem.  -->
 
 <h4><b>Rotational Matrices:</b></h4>
   
-  <p><b>A rotation in 3-D space is characterized by two angles. We will characterize them as a rotation along the $X-Y$ plane, and a rotation along the $Y-Z$ plane. Derive the equations that transform a vector $[x, y, z]^\top$ to a new vector $[x', y', z']^\top$ by rotating it counterclockwize by angle $\theta$ along the $X-Y$ plane and by an angle $\delta$ along the $Y-Z$ plane. Represent this as a matrix transformation of the column vector $[x, y, z]^\top$ to the column vector $[x', y', z']^\top$. The matrix that transforms the former into the latter is a rotation matrix. </b></p>
+A rotation in 3-D space is characterized by two angles. We will characterize them as a rotation along the $X-Y$ plane, and a rotation along the $Y-Z$ plane. Derive the equations that transform a vector $[x, y, z]^\top$ to a new vector $[x', y', z']^\top$ by rotating it counterclockwise by angle $\theta$ along the $X-Y$ plane and by an angle $\delta$ along the $Y-Z$ plane. Represent this as a matrix transformation of the column vector $[x, y, z]^\top$ to the column vector $[x', y', z']^\top$. The matrix that transforms the former into the latter is a rotation matrix.
 
-  <h4>Projecting Instrument Notes:</h4>
-  <p><b>For this problem you will transform the harmonica notes of problem 1 to piano notes, by a matrix transform. The piano notes can be downloaded from <a href="assignment1/pianonotes.tar.gz">[here]</a>. Note that, in this case, you don't know which piano notes correspond to which notes from the harmonica. There are 3 parts to this problem: </b></p>
-  <ul>
-    <li><b>Find the piano note corresponding to each note from the harmonica. The dot product is your friend. </li>
-    <li>Find a transformation that converts the harmonica notes to piano notes. To do so, you must list the spectra for all hamonica notes as a matrix $H$. List the correspnding piano notes as a matrix $P$. There must be a one-to-one correspondence between the notes represented by the columns of $H$ and those represented by the columns of $P$. The desired transformation is a matrix $M$ such that $MH \approx P$. Provide the matrix $M$.</li>
-    <li>Synthesize the music piece from Problem 1, using both the actual piano notes and those obtained by transforming the harmonica notes. Submit both synthesized recordings.</b> </li>
-  </ul>
+#### Projecting Instrument Notes:
+  
+For this problem you will transform the harmonica notes of problem 1 to piano notes, by a matrix transform. The piano notes can be downloaded from [here](assignment1/pianonotes.tar.gz). Note that, in this case, you don't know which piano notes correspond to which notes from the harmonica. There are 3 parts to this problem: 
 
- <h3> Linear&nbsp Algebra&nbsp II</h3>
+- Find the piano note corresponding to each note from the harmonica. The dot product is your friend.
+- Find a transformation that converts the harmonica notes to piano notes. To do so, you must list the spectra for all harmonica notes as a matrix $H$. List the corresponding piano notes as a matrix $P$. There must be a one-to-one correspondence between the notes represented by the columns of $H$ and those represented by the columns of $P$. The desired transformation is a matrix $M$ such that $MH \approx P$. Provide the matrix $M$.
+- Synthesize the music piece from Problem 1, using both the actual piano notes and those obtained by transforming the harmonica notes. Submit both synthesized recordings.
+
+
+<!--### Linear Algebra II
+
  <p><b>The following matrix transforms 4-dimensional vectors into 3-dimensional ones:  </b></p>
  &nbsp;
 \[
 A = \begin{bmatrix}
     1 & 2 & 3 & 4 \\
     3 & 4 & 5 & 7 \\
-    5 & 7 & 9 & 11 
+    5 & 7 & 9 & 11
     \end{bmatrix}
-\] 
+\]
 
 
 <ul><b>
@@ -180,15 +182,18 @@ A = \begin{bmatrix}
 \]
 What is $\delta_2$ (<i>i.e.</i> $\delta_s$ for $s = 2$) for the matrix $A$ given above?  Hint: You must consider all $^4C_2$ possible values for $A_s$.
 </li></b>
-</ul>
- <h3> Linear&nbsp Algebra&nbsp III</h3>
- <p><b>In this problem we will use basic linear algebraic operations to &ldquo;invert&rdquo; a photograph and recover the 3-D coordinates of the scene.</b></p>
+</ul> -->
 
-<p><b>Images taken by conventional cameras are in two dimensions, but they are records of a three dimensional world.  When a camera takes an picture,  the camera is seeing the scene as if it were painted on a 2-dimensional window. The X,Y location of a feature on the image gives you no indication of the <i>distance</i> of that location from the camera itself. The recorded image is also affected by perspective. To understand this consider what happens when a real-world location $P_r = (X_r, Y_r, Z_r)$ is recorded by a camera.</b>
 
-<p><b> Figure XXX illustrates how an image is recorded by the camera.  Rays of light from $P_r$ travels into the &ldquo;eye&rdquo; of the camera in a straight line (we are making the simplifying assumption of a pinhole camera here). The point where all the rays converge ($O$ in the picture) is called the &ldquo;principal point&rdquo; of the camera. The rectangluar section $R$ through which the ray passes is the &ldquo;image plane&rdquo; for the camera.  The camera effectively records all pictures as if they were painted on this image plane.  The location $P_r = (X_r, Y_r, Z_r)$ is captured as the location $P_i = (X_i, Y_i, Z_i)$, which is the $X,Y$ location on the image plane where the ray from $P_r$ to $O$ intersects it.  </b>
+<!--### Linear&nbsp Algebra III
 
-<p><b>N.B:</b> In reality, the actual pixel position recorded is $P_c = (X_c, Y_c)$, where $X_c = s_x X_i + \epsilon_x,~Y_c = s_y, Y_i + \epsilon_y$, where $s_x$ and $s_y$ are <i> scaling factors</i> that scale the image plane down onto to actual pixel locations on the final, captured image. The two scaling factors are not equal, because the image may be differently scaled in the $X$ and $Y$ directions (<i>e.g.</i> the camera may have a different number of pixels per inch in the X and Y directions).  $\epsilon_x$ and $\epsilon_y$ are quantization error.  For the purpose of this homework we will ignore this aspect and assume that the pixel positions <i>are</i> the $X,Y$ coordinates of the image plane, <i>i.e.</i> $P_c = P_i$. 
+In this problem we will use basic linear algebraic operations to "invert" a photograph and recover the 3-D coordinates of the scene.
+
+Images taken by conventional cameras are in two dimensions, but they are records of a three dimensional world.  When a camera takes an picture,  the camera is seeing the scene as if it were painted on a 2-dimensional window. The X,Y location of a feature on the image gives you no indication of the distance of that location from the camera itself. The recorded image is also affected by perspective. To understand this consider what happens when a real-world location $P_r = (X_r, Y_r, Z_r)$ is recorded by a camera.
+
+ Figure XXX illustrates how an image is recorded by the camera.  Rays of light from $P_r$ travels into the &ldquo;eye&rdquo; of the camera in a straight line (we are making the simplifying assumption of a pinhole camera here). The point where all the rays converge ($O$ in the picture) is called the &ldquo;principal point&rdquo; of the camera. The rectangluar section $R$ through which the ray passes is the &ldquo;image plane&rdquo; for the camera.  The camera effectively records all pictures as if they were painted on this image plane.  The location $P_r = (X_r, Y_r, Z_r)$ is captured as the location $P_i = (X_i, Y_i, Z_i)$, which is the $X,Y$ location on the image plane where the ray from $P_r$ to $O$ intersects it.
+
+<p><b>N.B:</b> In reality, the actual pixel position recorded is $P_c = (X_c, Y_c)$, where $X_c = s_x X_i + \epsilon_x,~Y_c = s_y, Y_i + \epsilon_y$, where $s_x$ and $s_y$ are <i> scaling factors</i> that scale the image plane down onto to actual pixel locations on the final, captured image. The two scaling factors are not equal, because the image may be differently scaled in the $X$ and $Y$ directions (<i>e.g.</i> the camera may have a different number of pixels per inch in the X and Y directions).  $\epsilon_x$ and $\epsilon_y$ are quantization error.  For the purpose of this homework we will ignore this aspect and assume that the pixel positions <i>are</i> the $X,Y$ coordinates of the image plane, <i>i.e.</i> $P_c = P_i$.
 
 <p><b>The problem, then, is to figure out real-world 3-D coordinates of $P_r$ translate to the $X,Y$ coordinate $P_i$ on the image plane. A secondary problem is to figure out how to <i>recover</i> real-world 3-D co-ordinates from one or more camera images.</b>
 
@@ -202,7 +207,7 @@ What is $\delta_2$ (<i>i.e.</i> $\delta_s$ for $s = 2$) for the matrix $A$ given
 <p><b>or alternately</b>
 \[\begin{array}{ll}
 2.~~~~~~~~~~~~~~~~~~X^c_i = f\frac{X^c_r}{Z^c_r} \\
-~~~~~~~~~~~~~~~~~~~~Y^c_i = f\frac{Y^c_r}{Z^c_r} 
+~~~~~~~~~~~~~~~~~~~~Y^c_i = f\frac{Y^c_r}{Z^c_r}
 \end{array}\]
 
 <p> <b>The above equation is entirely in terms of <i> Camera </i> coordinates. A camera is a mobile object and the relationship of camera's view to the arrangement of objects in the real world can change as you move and rotate the camera. In order to account for this, we must also establish <i>world coordinates</i> -- a fixed coordinate system with respect to which the objects in the 3-D world may be described. This comprises a specified <i>origin</i> and <i> axes</i> in the real-world, with respect to which all objects, <i>including the camera's principal point</i> can be assigned coordinates. This is particularly important if we want to take pictures with multiple cameras and &ldquo;register&rdquo; them, so that we can find correspondences and attempt to rebuilt a 3-D world from camera snapshots.</b>
@@ -226,7 +231,7 @@ What is $\delta_2$ (<i>i.e.</i> $\delta_s$ for $s = 2$) for the matrix $A$ given
 \]
 <p><b>or, alternately:</b>
 \[
-4.~~~~~~~~~~~~~{X^c_i}(r_{21}X^w + r_{22}Y^w + r_{23}Z^w + Y_0) = 
+4.~~~~~~~~~~~~~{X^c_i}(r_{21}X^w + r_{22}Y^w + r_{23}Z^w + Y_0) =
 {Y^c_i}(r_{11}X^w + r_{12}Y^w + r_{13}Z^w + X_0)
 \]
 <p><b>This implies that knowing $r_{11}, r_{12}, r_{13}, r_{21}, r_{22}, r_{23}, X_0$ and $Y_0$ gives us a relationship that specifies a relationship between $X^c_i$ and $Y^c_i$. Recall that $R$ is an orthogonal matrix, therefore knowing the first two rows of $R$ (namely the terms in Equation 4) specifies the third row to within a factor of $\pm 1$, and thereby specifies the $R$ matrix almost fully.</b>
@@ -241,7 +246,7 @@ What is $\delta_2$ (<i>i.e.</i> $\delta_s$ for $s = 2$) for the matrix $A$ given
 <h3>Due&nbsp Date</h3>
 <p><b>The assignment is due at the beginning of class on September 26th. The assignment is worth 15 points. Each day of delay thereafter will automatically deduct 0.5 points from your score.</b></p>
 
-<p><b>Solutions may be emailed to James Ding or Varun Gupta, and must be cc-ed to Bhiksha. The message must have the subject line "MLSP assignment 1". It should include a report (1 page or longer) of what you did, and the resulting matrix as well as the synthesized audio. </b></p>
+<p><b>Solutions may be emailed to James Ding or Varun Gupta, and must be cc-ed to Bhiksha. The message must have the subject line "MLSP assignment 1". It should include a report (1 page or longer) of what you did, and the resulting matrix as well as the synthesized audio. </b></p> -->
 
-</div>
+<!-- </div> -->
 
