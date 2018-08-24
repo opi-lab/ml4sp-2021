@@ -82,6 +82,7 @@ We will be reviewing the fundamentals of Linear Algebra.
 ### Assignment 1
 A summary of Linear Algebra exercises. **Due date:** 2017-09-14.
 
+[Assignment 1]({{site.url}}assignment1)
 
 
 <!--### Assignment 1
