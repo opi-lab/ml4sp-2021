@@ -61,9 +61,10 @@ Prior knowledge of this course includes probability, linear algebra, and calculu
 
 This is a new course, this website will be updated as we go along.
 
-### Lecture 1: Introduction and Linear Algebra Resfresher 
+### Lecture 1: Introduction
 
-We will be discussing the main aspects and motivation for using ML techniques in Signal Processing. Also a brief overview of the Linear Algebra involved in the course.
+We will be discussing the main aspects and motivation for using ML techniques in Signal Processing. 
+<!-- Also a brief overview of the Linear Algebra involved in the course. -->
 
 - [Lecture 1 slides](https://www.dropbox.com/s/tjqtjjfxhwcgf92/Class1.Introduction.pdf?dl=0)   
 
@@ -71,19 +72,22 @@ We will be discussing the main aspects and motivation for using ML techniques in
 <!-- - [Linear Algebra slides](https://www.dropbox.com/s/7c3ntm6ohw6ld9w/cs131_linalg_review.pptx?dl=0) -->
 
 
-
-
-
 ### Lecture 2: Linear Algebra Refresher
 We will be reviewing the fundamentals of Linear Algebra.
 
 - [Lecture 2 slides](https://www.dropbox.com/s/zsh79xvaassbyg2/Class2.LinearAlgebra.pdf?dl=0)
+- [Projections from Linear Algebra by G Strang](https://www.dropbox.com/s/zzy8hwatr4yvaxt/Projections-Strang.pdf?dl=0)
 
 ### Assignment 1
 A summary of Linear Algebra exercises. **Due date:** 2017-09-14.
 
 [Assignment 1]({{site.url}}assignment1)
 
+
+### Lecture 3: Linear Algebra Refresher II
+We will be reviewing the fundamentals of Linear Algebra.
+
+- [Lecture 3 slides](https://www.dropbox.com/s/awp3925g3gpvfan/Class3.LinearAlgebra.pdf?dl=0)
 
 <!--### Assignment 1
 
