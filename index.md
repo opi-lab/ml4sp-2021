@@ -78,16 +78,27 @@ We will be reviewing the fundamentals of Linear Algebra.
 - [Lecture 2 slides](https://www.dropbox.com/s/zsh79xvaassbyg2/Class2.LinearAlgebra.pdf?dl=0)
 - [Projections from Linear Algebra by G Strang](https://www.dropbox.com/s/zzy8hwatr4yvaxt/Projections-Strang.pdf?dl=0)
 
+
 ### Assignment 1
 A summary of Linear Algebra exercises. **Due date:** 2017-09-14.
 
-[Assignment 1]({{site.url}}assignment1)
-
+- [Assignment 1]({{site.url}}assignment1)
+- [Short-time DFT](https://www.dropbox.com/s/jpl2yofgjud3er3/short-time-dft.pdf?dl=0)
+- [Upload link](https://www.dropbox.com/request/6E7pjT4WpL9hbkCmmExP)
 
 ### Lecture 3: Linear Algebra Refresher II
 We will be reviewing the fundamentals of Linear Algebra.
 
 - [Lecture 3 slides](https://www.dropbox.com/s/awp3925g3gpvfan/Class3.LinearAlgebra.pdf?dl=0)
+- [Gilbert Strang's notes on Eigen analysis](http://math.mit.edu/linearalgebra/ila0601.pdf)
+- [An awesome video lecture on SVD](http://freevideolectures.com/Course/2052/Linear-Algebra/30)
+- [Short]
+
+
+### Lecture 4: Signal Representations
+We will be discussing the representation of signals, especially the DFT.
+
+- [Lecture 4 slides](https://www.dropbox.com/s/yd35tq6rugmz3gi/Class4.signalrepresentations.pdf?dl=0)
 
 <!--### Assignment 1
 
