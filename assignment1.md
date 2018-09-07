@@ -154,7 +154,7 @@ A rotation in 3-D space is characterized by two angles. We will characterize the
 
 #### Projecting Instrument Notes:
   
-For this problem you will transform the harmonica notes of problem 1 to piano notes, by a matrix transform. The piano notes can be downloaded from [here](assignment1/pianonotes.tar.gz). Note that, in this case, you don't know which piano notes correspond to which notes from the harmonica. There are 3 parts to this problem: 
+For this problem you will transform the harmonica notes of problem 1 to piano notes, by a matrix transform. The piano notes can be downloaded from [here]({{site.url}}a1/pianonotes.tar.gz). Note that, in this case, you don't know which piano notes correspond to which notes from the harmonica. There are 3 parts to this problem: 
 
 - Find the piano note corresponding to each note from the harmonica. The dot product is your friend.
 - Find a transformation that converts the harmonica notes to piano notes. To do so, you must list the spectra for all harmonica notes as a matrix $H$. List the corresponding piano notes as a matrix $P$. There must be a one-to-one correspondence between the notes represented by the columns of $H$ and those represented by the columns of $P$. The desired transformation is a matrix $M$ such that $MH \approx P$. Provide the matrix $M$.
