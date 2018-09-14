@@ -100,6 +100,12 @@ We will be discussing the representation of signals, especially the DFT.
 
 - [Lecture 4 slides](https://www.dropbox.com/s/yd35tq6rugmz3gi/Class4.signalrepresentations.pdf?dl=0)
 
+
+### Lecture 5: Eigenfeatures
+We will take a look at finding data-dependent bases.
+
+- [Lecture 5 slides](https://www.dropbox.com/s/gq0ev7n3usz5ctu/Class5.eigenfeatures.pdf?dl=0)
+
 <!--### Assignment 1
 
 A summary of Linear Algebra and Probability exercises. **Due date:** 2017-08-25.
