@@ -7,15 +7,6 @@ title: Machine Learning for Signal Processing
 
 ### Second semester 2018
 
-Andrés Marrugo, PhD       
-*Universidad Tecnológica de Bolívar*
-
-##  Aims and Scope
-
-# Machine Learning for Signal Processing
-
-### Second semester 2018
-
 Andrés Marrugo, PhD
 *Universidad Tecnológica de Bolívar*
 
