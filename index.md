@@ -97,6 +97,18 @@ We will take a look at finding data-dependent bases.
 
 - [Lecture 5 slides](https://www.dropbox.com/s/gq0ev7n3usz5ctu/Class5.eigenfeatures.pdf?dl=0)
 
+### Lecture 6: Sparse Representations in Image Processing - Invited
+<!-- We will take a look at finding data-dependent bases. -->
+
+- [Lecture 6 slides](https://www.dropbox.com/s/gq0ev7n3usz5ctu/Class5.eigenfeatures.pdf?dl=0)
+
+### Lecture 7: Face Detection
+<!-- We will take a look at finding data-dependent bases. -->
+
+- [Lecture 7 slides](https://www.dropbox.com/s/isn3eobdk3vwdg3/Class6.facedetection.pdf?dl=0)
+
+
+
 <!--### Assignment 1
 
 A summary of Linear Algebra and Probability exercises. **Due date:** 2017-08-25.
