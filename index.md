@@ -100,7 +100,7 @@ We will take a look at finding data-dependent bases.
 ### Lecture 6: Sparse Representations in Image Processing - Invited
 <!-- We will take a look at finding data-dependent bases. -->
 
-- [Lecture 6 slides](https://www.dropbox.com/s/gq0ev7n3usz5ctu/Class5.eigenfeatures.pdf?dl=0)
+- [Lecture 6 slides](https://www.dropbox.com/s/5yn5c4y7mu9zudn/Sparsity_Master_UTB_2018_2.pdf?dl=0)
 
 ### Lecture 7: Face Detection
 <!-- We will take a look at finding data-dependent bases. -->
