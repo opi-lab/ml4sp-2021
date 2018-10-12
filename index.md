@@ -114,6 +114,16 @@ A summary of Linear Algebra exercises. **Due date:** 2018-11-03
 - [Assignment 2 - hints]({{site.url}}assignment2_hints)
 
 
+### Lecture 8: Compressed Sensing - Invited
+<!-- We will take a look at finding data-dependent bases. -->
+
+- [Lecture 8 slides](https://www.dropbox.com/s/jfmd7rudbmw78w6/main_compressed_sensing_Bacca.pdf?dl=0)
+
+### Lecture 9: Independent Component Analysis
+<!-- We will take a look at finding data-dependent bases. -->
+
+- [Lecture 9 slides](https://www.dropbox.com/s/hazdpd2jsqxy7i1/Class7.ica.pdf?dl=0)
+
 <!--### Assignment 1
 
 A summary of Linear Algebra and Probability exercises. **Due date:** 2017-08-25.
