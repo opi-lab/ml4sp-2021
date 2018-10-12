@@ -86,7 +86,7 @@ NF \approx w_{NF,1}E_1 + w_{NF,2}E_2 + w_{NF,3}E_3 + \cdots + w_{NF,K}E_K
 
 <p>The classifier you have learned will be for the same size of images that were used in the training data (64 x 64). Scale the classifier by scaling the Eigenfaces to other sizes (32 x 32, 48 x 48, 96 x 96, 128x 128). </p>
 
-<p>Train and test data for this problem is <a href="BoostingData.tar.gz">here</a>. It is a collection of face and non-face data.Use the data in the "train" subdirectory to train your classifier and classify the data in the "test" subdirectory. </p>
+<p>Train and test data for this problem is <a href="{{site.url}}a2/BoostingData.tar.gz">here</a>. It is a collection of face and non-face data.Use the data in the "train" subdirectory to train your classifier and classify the data in the "test" subdirectory. </p>
 
 
 ### Problem 5
