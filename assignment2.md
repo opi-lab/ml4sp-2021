@@ -14,23 +14,23 @@ Adapted from [Bhiksha Raj](http://mlsp.cs.cmu.edu/people/bhiksha/index.php).
 
 ###  Problem: 
 
-You are given a corpus of facial images <a href="lfw1000.zip">[here]</a> from the <a href="http://www.itee.uq.edu.au/~conrad/lfwcrop/">LFWCrop</a> database. Each image in this corpus is 64 x 64 and grayscale. You must learn a typical (i.e. *Eigen*) face from them
+You are given a corpus of facial images <a href="{{site.url}}a2/lfw1000.zip">[here]</a> from the <a href="http://www.itee.uq.edu.au/~conrad/lfwcrop/">LFWCrop</a> database. Each image in this corpus is 64 x 64 and grayscale. You must learn a typical (i.e. *Eigen*) face from them
 
-You are also given four group photographs with multiple faces <a href="group_photos.tar.gz">[here]</a>. You must use the Eigen face you have learnt to detect the faces in these photos
+You are also given four group photographs with multiple faces <a href="{{site.url}}a2/group_photos.tar.gz">[here]</a>. You must use the Eigen face you have learnt to detect the faces in these photos
 
 The faces in the group photographs may have different sizes. You must account for these variations 
 
 Matlab is strongly recommended but you are free to use other programs if you want.
 
-Some hints on how to read image files into matlab can be found <a href="assignment2_hints">here</a> 
+Some hints on how to read image files into matlab can be found <a href="{{site.url}}{{site.url}}assignment2_hints">here</a> 
 
-You must compute the first Eigen face from this data. To do so, you will have to read all images into a matrix.<a href="assignment2_hints#buildingmatrix"> Here</a> are instructions for building a matrix of images in matlab. You must then compute the first Eigen vector for this matrix. Information on computing Eigen faces from an image matrix can be found <a href="assignment2_hints#eigenface">here</a> 
+You must compute the first Eigen face from this data. To do so, you will have to read all images into a matrix.<a href="{{site.url}}assignment2_hints#buildingmatrix"> Here</a> are instructions for building a matrix of images in matlab. You must then compute the first Eigen vector for this matrix. Information on computing Eigen faces from an image matrix can be found <a href="{{site.url}}assignment2_hints#eigenface">here</a> 
 
-To detect faces in the image, you must scan the group photo and identify all regions in it that &ldquo;match&rdquo; the patterns in Eigen face most. To &ldquo;Scan&rdquo; the image to find matches against an $N\times M$ Eigen face, you must match every $N\times M$ region of the photo against the Eigen face.
+To detect faces in the image, you must scan the group photo and identify all regions in it that “match” the patterns in Eigen face most. To “Scan” the image to find matches against an $N\times M$ Eigen face, you must match every $N\times M$ region of the photo against the Eigen face.
 
 The &ldquo;match&rdquo; between any $N\times M$ region of an image and an Eigen face is given by the normalized dot product between the Eigen face and the region of the image being evaluated. The normalized dot product between an $N\times M$ Eigen face and a corresponding $N\times M$ segment of the image is given by $E\cdot P / |P|$, where $E$ is the vector (unrolled) representation of the Eigen face, and $P$ is the unrolled vector form of the $N\times M$ patch.
 
-A simple matlab loop that scans an image for an Eigen vector is given <a href="assignment2_hints#scanimage">here</a> 
+A simple matlab loop that scans an image for an Eigen vector is given <a href="{{site.url}}assignment2_hints#scanimage">here</a> 
 
 The locations of faces are likely to be where the match score peaks.
 
@@ -38,8 +38,8 @@ Some tricks may be useful to get better results.
 
 
 <ul>
-  <li> Some of your test images (the group photograph) are in color; your Eigen faces are greyscale. You will have to convert the color photograph to greyscale by taking the mean of the red, green and blue values. The matlab method for doing this is given <a href="assignment2_hints#sometricks"> here.</a> </li>
-  <li>You will obtain better Eigen faces if all of the faces in the training data are histogram equalized. The faces in the training data all have somewhat different lighting and contrast. These variations can affect your estimate of the Eigen face. Histogram equalization can be performed in matlab as explained <a href="assignment2_hints#sometricks">here</a>. </li>
+  <li> Some of your test images (the group photograph) are in color; your Eigen faces are greyscale. You will have to convert the color photograph to greyscale by taking the mean of the red, green and blue values. The matlab method for doing this is given <a href="{{site.url}}assignment2_hints#sometricks"> here.</a> </li>
+  <li>You will obtain better Eigen faces if all of the faces in the training data are histogram equalized. The faces in the training data all have somewhat different lighting and contrast. These variations can affect your estimate of the Eigen face. Histogram equalization can be performed in matlab as explained <a href="{{site.url}}assignment2_hints#sometricks">here</a>. </li>
   <li>You will also be able to detect faces better if you histogram-equalize each patch of the group photo before you evaluate its match to the Eigen face. </li>
 </ul>
 
@@ -49,11 +49,11 @@ The Eigen face is fixed in size and can only be used to detect faces of approxim
 
 The solution to this is to make many copies of the eigen face and match them all.
 
-In order to make your detection system robust, resize the Eigen faces from 64 pixels to 32x32, 48x48, 96x96, and 128x128 pixels in size. You can use the scaling techniques we discussed in the linear algebra lecture. Matlab also provides some easy tools for scaling images. You can find information on scaling images in matlab <a href="assignment2_hints#scalingimages">here</a>. Once you've scaled your eigen face, you will have a total of five “typical” faces, one at each level of scaling. You must scan the group pictures with all of the five eigen faces. Each of them will give you a “match” score for each position on the image. If you simply locate the peaks in each of them, you may find all the faces. Sometimes multiple peaks will occur at the same position, or within a few pixels of one another. In these cases, you can merge all of these, they probably all represent the same face.
+In order to make your detection system robust, resize the Eigen faces from 64 pixels to 32x32, 48x48, 96x96, and 128x128 pixels in size. You can use the scaling techniques we discussed in the linear algebra lecture. Matlab also provides some easy tools for scaling images. You can find information on scaling images in matlab <a href="{{site.url}}assignment2_hints#scalingimages">here</a>. Once you've scaled your eigen face, you will have a total of five “typical” faces, one at each level of scaling. You must scan the group pictures with all of the five eigen faces. Each of them will give you a “match” score for each position on the image. If you simply locate the peaks in each of them, you may find all the faces. Sometimes multiple peaks will occur at the same position, or within a few pixels of one another. In these cases, you can merge all of these, they probably all represent the same face.
 
 Additional heuristics may also be required (appropriate setting of thresholds, comparison of peak values from different scaling factors, addiitonal scaling etc.). These are for you to investigate.
 
-<a href="assignment2_hints#additionalhints"><b>[More hints]</b></a>
+<a href="{{site.url}}assignment2_hints#additionalhints"><b>[More hints]</b></a>
 
 ### Problem 4: A boosting based face detector
 
