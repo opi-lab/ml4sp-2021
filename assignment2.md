@@ -116,7 +116,7 @@ You can adjust the tradeoff between missing faces and false alarms by comparing 
 We will add a final problem on the use of independent component analysis for the face recognizer. This will be put up by next week. <br>
 <p>&nbsp; -->
 
-### Submission Details
+<h3>Submission Details</h3>
 
 <!-- <p>The homework is due at the beginning of class on October 31,2013. </p> -->
 <p><b>What to submit:</b></p>
