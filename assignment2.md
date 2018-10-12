@@ -1,7 +1,7 @@
 ---
 layout: page_math
-title: Assignment 1
-permalink: /assignment1/
+title: Assignment 2
+permalink: /assignment2/
 ---
 
 ## Machine Learning for Signal Processing - 2P2018
