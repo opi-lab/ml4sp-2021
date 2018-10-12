@@ -22,7 +22,7 @@ The faces in the group photographs may have different sizes. You must account fo
 
 Matlab is strongly recommended but you are free to use other programs if you want.
 
-Some hints on how to read image files into matlab can be found <a href="{{site.url}}{{site.url}}assignment2_hints">here</a> 
+Some hints on how to read image files into matlab can be found <a href="{{site.url}}assignment2_hints">here</a> 
 
 You must compute the first Eigen face from this data. To do so, you will have to read all images into a matrix.<a href="{{site.url}}assignment2_hints#buildingmatrix"> Here</a> are instructions for building a matrix of images in matlab. You must then compute the first Eigen vector for this matrix. Information on computing Eigen faces from an image matrix can be found <a href="{{site.url}}assignment2_hints#eigenface">here</a> 
 
