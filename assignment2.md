@@ -28,7 +28,7 @@ You must compute the first Eigen face from this data. To do so, you will have to
 
 To detect faces in the image, you must scan the group photo and identify all regions in it that &ldquo;match&rdquo; the patterns in Eigen face most. To &ldquo;Scan&rdquo; the image to find matches against an $N\times M$ Eigen face, you must match every $N\times M$ region of the photo against the Eigen face.
 
-The *match* between any $N\times M$ region of an image and an Eigen face is given by the normalized dot product between the Eigen face and the region of the image being evaluated. The normalized dot product between an $N\times M$ Eigen face and a corresponding $N\times M$ segment of the image is given by $E\cdot P / |P|$, where $E$ is the vector (unrolled) representation of the Eigen face, and $P$ is the unrolled vector form of the $N\times M$ patch.
+The *match* between any $N\times M$ region of an image and an Eigen face is given by the normalized dot product between the Eigen face and the region of the image being evaluated. The normalized dot product between an $N\times M$ Eigen face and a corresponding $N\times M$ segment of the image is given by $E\cdot P / \vert P \vert$, where $E$ is the vector (unrolled) representation of the Eigen face, and $P$ is the unrolled vector form of the $N\times M$ patch.
 
 A simple matlab loop that scans an image for an Eigen vector is given <a href="{{site.url}}assignment2_hints#scanimage">here</a> 
 
