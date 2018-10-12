@@ -97,16 +97,16 @@ err_F = \frac{1}{N}\parallel F - \sum_i w_{F,i}E_i \parallel^2
 \]
 where, $\parallel \bullet \parallel^2$  represents the sum of the squares of the error of each pixel, and $N$ represents the number of pixels in the image. <p>
 
-<p>Represent each face by the set of weights for the Eigen faces and the error, <i>i.e.</i> $F \rightarrow \{w_{F,1}, w_{F,2}, \cdots, w_{F,K}, err_F\}$ </p>
+Represent each face by the set of weights for the Eigen faces and the error, <i>i.e.</i> $F \rightarrow \{w_{F,1}, w_{F,2}, \cdots, w_{F,K}, err_F\}$
 
-<p>As in the case of faces, the approximation of the non-face images in terms of Eigenfaces will not be exact and will result in error. You can compute the normalized total error as you did for the face images to obtain $err_{NF}$.  </p>
-<p> Represent each of the non-face images by the set of weights <i>i.e.</i>
-$NF \rightarrow \{w_{NF,1}, w_{NF,2}, \cdots, w_{NF,K}, err_{NF}\}$ </p>
+As in the case of faces, the approximation of the non-face images in terms of Eigenfaces will not be exact and will result in error. You can compute the normalized total error as you did for the face images to obtain $err_{NF}$.
+
+Represent each of the non-face images by the set of weights <i>i.e.</i>
+$NF \rightarrow \{w_{NF,1}, w_{NF,2}, \cdots, w_{NF,K}, err_{NF}\}$
 
 Learn and build a classifier in the same way you did for problem 3 but including normalized error as a feature. Use this classifier for Problem 4.
 
-
-### Problem 6
+### Problem 6 ###
 
 Scan the group photographs to detect faces using your adaboost classifier
 
