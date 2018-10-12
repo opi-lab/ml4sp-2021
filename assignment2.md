@@ -90,6 +90,7 @@ NF \approx w_{NF,1}E_1 + w_{NF,2}E_2 + w_{NF,3}E_3 + \cdots + w_{NF,K}E_K
 
 
 ### Problem 5
+
 <p>It will generally not be possible to represent a face exactly using a limited number of typical faces; as a result there will be an error between the face $F$ and the approximation in terms of the $K$ Eigenfaces. You can also compute the <i>normalized</i> total error in representation as:<br>
 \[
 err_F = \frac{1}{N}\parallel F - \sum_i w_{F,i}E_i \parallel^2
@@ -102,9 +103,11 @@ where, $\parallel \bullet \parallel^2$  represents the sum of the squares of the
 <p> Represent each of the non-face images by the set of weights <i>i.e.</i>
 $NF \rightarrow \{w_{NF,1}, w_{NF,2}, \cdots, w_{NF,K}, err_{NF}\}$ </p>
 
-<p>Learn and build a classifier in the same way you did for problem 3 but including normalized error as a feature. Use this classifier for Problem 4.</p>
+Learn and build a classifier in the same way you did for problem 3 but including normalized error as a feature. Use this classifier for Problem 4.
+
 
 ### Problem 6
+
 Scan the group photographs to detect faces using your adaboost classifier
 
 You can adjust the tradeoff between missing faces and false alarms by comparing the margin $H(x)$ of the Adaboost classifier to a threshold other than 0.
@@ -114,6 +117,7 @@ We will add a final problem on the use of independent component analysis for the
 <p>&nbsp; -->
 
 ### Submission Details
+
 <!-- <p>The homework is due at the beginning of class on October 31,2013. </p> -->
 <p><b>What to submit:</b></p>
 <ul>
