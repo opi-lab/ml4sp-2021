@@ -106,7 +106,7 @@ $NF \rightarrow \{w_{NF,1}, w_{NF,2}, \cdots, w_{NF,K}, err_{NF}\}$
 
 Learn and build a classifier in the same way you did for problem 3 but including normalized error as a feature. Use this classifier for Problem 4.
 
-### Problem 6 ###
+<h3>Problem 6</h3>
 
 Scan the group photographs to detect faces using your adaboost classifier
 
