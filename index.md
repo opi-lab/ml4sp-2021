@@ -71,7 +71,7 @@ We will be reviewing the fundamentals of Linear Algebra.
 
 
 ### Assignment 1
-A summary of Linear Algebra exercises. **Due date:** 2017-09-14.
+A summary of Linear Algebra exercises. **Due date:** 2018-09-14.
 
 - [Assignment 1]({{site.url}}assignment1)
 - [Short-time DFT](https://www.dropbox.com/s/jpl2yofgjud3er3/short-time-dft.pdf?dl=0)
@@ -107,6 +107,11 @@ We will take a look at finding data-dependent bases.
 
 - [Lecture 7 slides](https://www.dropbox.com/s/isn3eobdk3vwdg3/Class6.facedetection.pdf?dl=0)
 
+### Assignment 2
+A summary of Linear Algebra exercises. **Due date:** 2018-11-03
+
+- [Assignment 2]({{site.url}}assignment2)
+- [Assignment 2 - hints]({{site.url}}assignment2_hints)
 
 
 <!--### Assignment 1
