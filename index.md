@@ -124,6 +124,11 @@ A summary of Linear Algebra exercises. **Due date:** 2018-11-03
 
 - [Lecture 9 slides](https://www.dropbox.com/s/hazdpd2jsqxy7i1/Class7.ica.pdf?dl=0)
 
+### Lecture 10: Clustering
+<!-- We will take a look at finding data-dependent bases. -->
+
+- [Lecture 10 slides](https://www.dropbox.com/s/v5y1pn6eo9577dc/class8.clustering.pdf?dl=0)
+
 <!--### Assignment 1
 
 A summary of Linear Algebra and Probability exercises. **Due date:** 2017-08-25.
