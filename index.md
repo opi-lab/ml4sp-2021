@@ -129,6 +129,11 @@ A summary of Linear Algebra exercises. **Due date:** 2018-11-03
 
 - [Lecture 10 slides](https://www.dropbox.com/s/v5y1pn6eo9577dc/class8.clustering.pdf?dl=0)
 
+### Lecture 11: Expectation Maximization
+<!-- We will take a look at finding data-dependent bases. -->
+
+- [Lecture 11 slides](https://www.dropbox.com/s/knd6ujaa55r3gh9/class9.expectationmaximization.pdf?dl=0)
+
 <!--### Assignment 1
 
 A summary of Linear Algebra and Probability exercises. **Due date:** 2017-08-25.
