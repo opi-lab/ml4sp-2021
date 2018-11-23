@@ -140,6 +140,11 @@ A summary of Linear Algebra exercises. **Due date:** 2018-11-03
 
 - [Lecture 12 slides](https://www.dropbox.com/s/eovgx1xmdduuxq0/Class11.regression.pdf?dl=0)
 
+### Lecture 13: Sparse and Overcomplete Representations
+<!-- We will take a look at finding data-dependent bases. -->
+
+- [Lecture 13 slides](https://www.dropbox.com/s/6g8lh3n1ahe3o7k/class12.sparseovercomplete.pdf?dl=0)
+
 <!--### Assignment 1
 
 A summary of Linear Algebra and Probability exercises. **Due date:** 2017-08-25.
