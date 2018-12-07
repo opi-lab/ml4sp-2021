@@ -146,6 +146,11 @@ A summary of Linear Algebra exercises. **Due date:** 2018-11-03
 
 - [Lecture 13 slides](https://www.dropbox.com/s/6g8lh3n1ahe3o7k/class12.sparseovercomplete.pdf?dl=0)
 
+### Final exam
+
+- [Exam]({{site.url}}pdfs/exam-ml4sp.pdf)
+- [Upload link](https://www.dropbox.com/request/ChBlKg6CuT5O2Tv5yBEX)
+
 <!--### Assignment 1
 
 A summary of Linear Algebra and Probability exercises. **Due date:** 2017-08-25.
