@@ -25,7 +25,8 @@ In this course, the student will obtain proficiency in:
 - In image processing and computer vision: such as image restoration,
 object detection, recognition, biometrics.
 - In carrying out the software implementation in simple applications.
-Prior knowledge of this course includes probability, linear algebra, and calculus. Programming experience in MATLAB is desirable, but not required.
+
+Prior knowledge of this course includes probability, linear algebra, and calculus. Programming experience in MATLAB or Python is desirable, but not required.
 
 
 ## Useful Resources
@@ -47,6 +48,11 @@ Prior knowledge of this course includes probability, linear algebra, and calculu
 - [MATLAB image processing toolbox](http://www.mathworks.com/access/helpdesk/help/toolbox/images/)
 - [Writing fast code](http://www.mathworks.com/matlabcentral/fileexchange/5685)
 
+### Python references
+
+- [Introduction to Data Science using Python](https://www.udemy.com/course/introduction-to-data-science-using-python/)
+- [MatPlotLib with Python](https://www.udemy.com/course/matplotlib-with-python/)
+- [Machine Learning With Python](https://www.tutorialspoint.com/machine_learning_with_python/machine_learning_with_python_tutorial.pdf)
 
 ## Outline
 
