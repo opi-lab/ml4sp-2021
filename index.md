@@ -62,8 +62,8 @@ We will be discussing the main aspects and motivation for using ML techniques in
    
 <!-- - [Linear Algebra slides](https://www.dropbox.com/s/7c3ntm6ohw6ld9w/cs131_linalg_review.pptx?dl=0) -->
 
-<!--
-### Lecture 2: Linear Algebra Refresher
+
+<!--### Lecture 2: Linear Algebra Refresher
 We will be reviewing the fundamentals of Linear Algebra.
 
 - [Lecture 2 slides](https://www.dropbox.com/s/zsh79xvaassbyg2/Class2.LinearAlgebra.pdf?dl=0)
@@ -150,5 +150,4 @@ A summary of Linear Algebra exercises. **Due date:** 2018-11-03
 
 - [Exam]({{site.url}}pdfs/exam-ml4sp.pdf)
 - [Upload link](https://www.dropbox.com/request/ChBlKg6CuT5O2Tv5yBEX)
-
--->
+ -->
