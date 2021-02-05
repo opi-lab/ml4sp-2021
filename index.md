@@ -63,91 +63,91 @@ We will be discussing the main aspects and motivation for using ML techniques in
 <!-- - [Linear Algebra slides](https://www.dropbox.com/s/7c3ntm6ohw6ld9w/cs131_linalg_review.pptx?dl=0) -->
 
 
-<!--### Lecture 2: Linear Algebra Refresher
-We will be reviewing the fundamentals of Linear Algebra.
+<!-- ### Lecture 2: Linear Algebra Refresher -->
+<!-- We will be reviewing the fundamentals of Linear Algebra. -->
 
-- [Lecture 2 slides](https://www.dropbox.com/s/zsh79xvaassbyg2/Class2.LinearAlgebra.pdf?dl=0)
-- [Projections from Linear Algebra by G Strang](https://www.dropbox.com/s/zzy8hwatr4yvaxt/Projections-Strang.pdf?dl=0)
-
-
-### Assignment 1
-A summary of Linear Algebra exercises. **Due date:** 2018-09-14.
-
-- [Assignment 1]({{site.url}}assignment1)
-- [Short-time DFT](https://www.dropbox.com/s/jpl2yofgjud3er3/short-time-dft.pdf?dl=0)
-- [Upload link](https://www.dropbox.com/request/6E7pjT4WpL9hbkCmmExP)
-
-### Lecture 3: Linear Algebra Refresher II
-We will be reviewing the fundamentals of Linear Algebra.
-
-- [Lecture 3 slides](https://www.dropbox.com/s/awp3925g3gpvfan/Class3.LinearAlgebra.pdf?dl=0)
-- [Gilbert Strang's notes on Eigen analysis](http://math.mit.edu/linearalgebra/ila0601.pdf)
-- [An awesome video lecture on SVD](http://freevideolectures.com/Course/2052/Linear-Algebra/30)
-- [Short]
+<!-- - [Lecture 2 slides](https://www.dropbox.com/s/zsh79xvaassbyg2/Class2.LinearAlgebra.pdf?dl=0) -->
+<!-- - [Projections from Linear Algebra by G Strang](https://www.dropbox.com/s/zzy8hwatr4yvaxt/Projections-Strang.pdf?dl=0) -->
 
 
-### Lecture 4: Signal Representations
-We will be discussing the representation of signals, especially the DFT.
+<!-- ### Assignment 1 -->
+<!-- A summary of Linear Algebra exercises. **Due date:** 2018-09-14. -->
 
-- [Lecture 4 slides](https://www.dropbox.com/s/yd35tq6rugmz3gi/Class4.signalrepresentations.pdf?dl=0)
+<!-- - [Assignment 1]({{site.url}}assignment1) -->
+<!-- - [Short-time DFT](https://www.dropbox.com/s/jpl2yofgjud3er3/short-time-dft.pdf?dl=0) -->
+<!-- - [Upload link](https://www.dropbox.com/request/6E7pjT4WpL9hbkCmmExP) -->
+
+<!-- ### Lecture 3: Linear Algebra Refresher II -->
+<!-- We will be reviewing the fundamentals of Linear Algebra. -->
+
+<!-- - [Lecture 3 slides](https://www.dropbox.com/s/awp3925g3gpvfan/Class3.LinearAlgebra.pdf?dl=0) -->
+<!-- - [Gilbert Strang's notes on Eigen analysis](http://math.mit.edu/linearalgebra/ila0601.pdf) -->
+<!-- - [An awesome video lecture on SVD](http://freevideolectures.com/Course/2052/Linear-Algebra/30) -->
+<!-- - [Short] -->
 
 
-### Lecture 5: Eigenfeatures
-We will take a look at finding data-dependent bases.
+<!-- ### Lecture 4: Signal Representations -->
+<!-- We will be discussing the representation of signals, especially the DFT. -->
 
-- [Lecture 5 slides](https://www.dropbox.com/s/gq0ev7n3usz5ctu/Class5.eigenfeatures.pdf?dl=0)
+<!-- - [Lecture 4 slides](https://www.dropbox.com/s/yd35tq6rugmz3gi/Class4.signalrepresentations.pdf?dl=0) -->
 
-### Lecture 6: Sparse Representations in Image Processing - Invited
+
+<!-- ### Lecture 5: Eigenfeatures -->
 <!-- We will take a look at finding data-dependent bases. -->
 
-- [Lecture 6 slides](https://www.dropbox.com/s/5yn5c4y7mu9zudn/Sparsity_Master_UTB_2018_2.pdf?dl=0)
+<!-- - [Lecture 5 slides](https://www.dropbox.com/s/gq0ev7n3usz5ctu/Class5.eigenfeatures.pdf?dl=0) -->
 
-### Lecture 7: Face Detection
+<!-- ### Lecture 6: Sparse Representations in Image Processing - Invited -->
 <!-- We will take a look at finding data-dependent bases. -->
 
-- [Lecture 7 slides](https://www.dropbox.com/s/isn3eobdk3vwdg3/Class6.facedetection.pdf?dl=0)
+<!-- - [Lecture 6 slides](https://www.dropbox.com/s/5yn5c4y7mu9zudn/Sparsity_Master_UTB_2018_2.pdf?dl=0) -->
 
-### Assignment 2
-A summary of Linear Algebra exercises. **Due date:** 2018-11-03
-
-- [Assignment 2]({{site.url}}assignment2)
-- [Assignment 2 - hints]({{site.url}}assignment2_hints)
-- [Upload link](https://www.dropbox.com/request/qEj4aXk2O8YJZrtqQio0)
-
-
-### Lecture 8: Compressed Sensing - Invited
+<!-- ### Lecture 7: Face Detection -->
 <!-- We will take a look at finding data-dependent bases. -->
 
-- [Lecture 8 slides](https://www.dropbox.com/s/jfmd7rudbmw78w6/main_compressed_sensing_Bacca.pdf?dl=0)
+<!-- - [Lecture 7 slides](https://www.dropbox.com/s/isn3eobdk3vwdg3/Class6.facedetection.pdf?dl=0) -->
 
-### Lecture 9: Independent Component Analysis
+<!-- ### Assignment 2 -->
+<!-- A summary of Linear Algebra exercises. **Due date:** 2018-11-03 -->
+
+<!-- - [Assignment 2]({{site.url}}assignment2) -->
+<!-- - [Assignment 2 - hints]({{site.url}}assignment2_hints) -->
+<!-- - [Upload link](https://www.dropbox.com/request/qEj4aXk2O8YJZrtqQio0) -->
+
+
+<!-- ### Lecture 8: Compressed Sensing - Invited -->
 <!-- We will take a look at finding data-dependent bases. -->
 
-- [Lecture 9 slides](https://www.dropbox.com/s/hazdpd2jsqxy7i1/Class7.ica.pdf?dl=0)
+<!-- - [Lecture 8 slides](https://www.dropbox.com/s/jfmd7rudbmw78w6/main_compressed_sensing_Bacca.pdf?dl=0) -->
 
-### Lecture 10: Clustering
+<!-- ### Lecture 9: Independent Component Analysis -->
 <!-- We will take a look at finding data-dependent bases. -->
 
-- [Lecture 10 slides](https://www.dropbox.com/s/v5y1pn6eo9577dc/class8.clustering.pdf?dl=0)
+<!-- - [Lecture 9 slides](https://www.dropbox.com/s/hazdpd2jsqxy7i1/Class7.ica.pdf?dl=0) -->
 
-### Lecture 11: Expectation Maximization
+<!-- ### Lecture 10: Clustering -->
 <!-- We will take a look at finding data-dependent bases. -->
 
-- [Lecture 11 slides](https://www.dropbox.com/s/knd6ujaa55r3gh9/class9.expectationmaximization.pdf?dl=0)
-- [Matlab code](https://www.dropbox.com/s/ts9ik3bukszpatm/expectation_maximization.m?dl=0)
+<!-- - [Lecture 10 slides](https://www.dropbox.com/s/v5y1pn6eo9577dc/class8.clustering.pdf?dl=0) -->
 
-### Lecture 12: Regression and Prediction
+<!-- ### Lecture 11: Expectation Maximization -->
 <!-- We will take a look at finding data-dependent bases. -->
 
-- [Lecture 12 slides](https://www.dropbox.com/s/eovgx1xmdduuxq0/Class11.regression.pdf?dl=0)
+<!-- - [Lecture 11 slides](https://www.dropbox.com/s/knd6ujaa55r3gh9/class9.expectationmaximization.pdf?dl=0) -->
+<!-- - [Matlab code](https://www.dropbox.com/s/ts9ik3bukszpatm/expectation_maximization.m?dl=0) -->
 
-### Lecture 13: Sparse and Overcomplete Representations
+<!-- ### Lecture 12: Regression and Prediction -->
 <!-- We will take a look at finding data-dependent bases. -->
 
-- [Lecture 13 slides](https://www.dropbox.com/s/6g8lh3n1ahe3o7k/class12.sparseovercomplete.pdf?dl=0)
+<!-- - [Lecture 12 slides](https://www.dropbox.com/s/eovgx1xmdduuxq0/Class11.regression.pdf?dl=0) -->
 
-### Final exam
+<!-- ### Lecture 13: Sparse and Overcomplete Representations -->
+<!-- We will take a look at finding data-dependent bases. -->
 
-- [Exam]({{site.url}}pdfs/exam-ml4sp.pdf)
-- [Upload link](https://www.dropbox.com/request/ChBlKg6CuT5O2Tv5yBEX)
- -->
+<!-- - [Lecture 13 slides](https://www.dropbox.com/s/6g8lh3n1ahe3o7k/class12.sparseovercomplete.pdf?dl=0) -->
+
+<!-- ### Final exam -->
+
+<!-- - [Exam]({{site.url}}pdfs/exam-ml4sp.pdf) -->
+<!-- - [Upload link](https://www.dropbox.com/request/ChBlKg6CuT5O2Tv5yBEX) -->
+
