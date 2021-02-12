@@ -4,11 +4,11 @@ title: Assignment 1
 permalink: /assignment1/
 ---
 
-## Machine Learning for Signal Processing - 2P2018
+## Machine Learning for Signal Processing - 2P2021
 
 ## Assignment 1: Linear Algebra Refresher
 
-### Due date: September 14, 11:59 PM
+### Due date: March 14, 11:59 PM
 
 Adapted from [Bhiksha Raj](http://mlsp.cs.cmu.edu/people/bhiksha/index.php).
 
