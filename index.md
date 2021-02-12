@@ -24,7 +24,7 @@ In this course, the student will obtain proficiency in:
 - In sound processing: such as denoising and separating sounds in mixtures.
 - In image processing and computer vision: such as image restoration,
 object detection, recognition, biometrics.
-- In carrying out the software implementation in simple applications.
+- In carrying out the software implementation of simple applications.
 
 Prior knowledge of this course includes probability, linear algebra, and calculus. Programming experience in MATLAB or Python is desirable, but not required.
 
@@ -69,26 +69,26 @@ We will be discussing the main aspects and motivation for using ML techniques in
 <!-- - [Linear Algebra slides](https://www.dropbox.com/s/7c3ntm6ohw6ld9w/cs131_linalg_review.pptx?dl=0) -->
 
 
-<!-- ### Lecture 2: Linear Algebra Refresher -->
-<!-- We will be reviewing the fundamentals of Linear Algebra. -->
+### Lecture 2: Linear Algebra Refresher
+We will be reviewing the fundamentals of Linear Algebra.
 
-<!-- - [Lecture 2 slides](https://www.dropbox.com/s/zsh79xvaassbyg2/Class2.LinearAlgebra.pdf?dl=0) -->
-<!-- - [Projections from Linear Algebra by G Strang](https://www.dropbox.com/s/zzy8hwatr4yvaxt/Projections-Strang.pdf?dl=0) -->
+- [Lecture 2 slides](https://www.dropbox.com/s/18ll2ar8qeiig6k/Class2.LinearAlgebra.pdf?dl=0)
+- [Projections from Linear Algebra by G Strang](https://www.dropbox.com/s/zzy8hwatr4yvaxt/Projections-Strang.pdf?dl=0)
 
 
-<!-- ### Assignment 1 -->
-<!-- A summary of Linear Algebra exercises. **Due date:** 2018-09-14. -->
+### Assignment 1
+A summary of Linear Algebra exercises. **Due date:** 2021-03-14.
 
-<!-- - [Assignment 1]({{site.url}}assignment1) -->
-<!-- - [Short-time DFT](https://www.dropbox.com/s/jpl2yofgjud3er3/short-time-dft.pdf?dl=0) -->
-<!-- - [Upload link](https://www.dropbox.com/request/6E7pjT4WpL9hbkCmmExP) -->
+- [Assignment 1]({{site.url}}assignment1)
+- [Short-time DFT](https://www.dropbox.com/s/jpl2yofgjud3er3/short-time-dft.pdf?dl=0)
+- [Upload link](https://www.dropbox.com/request/ufwyyXKKu8QGFZv2BTjW)
 
-<!-- ### Lecture 3: Linear Algebra Refresher II -->
-<!-- We will be reviewing the fundamentals of Linear Algebra. -->
+### Lecture 3: Linear Algebra Refresher II
+We will be reviewing the fundamentals of Linear Algebra.
 
-<!-- - [Lecture 3 slides](https://www.dropbox.com/s/awp3925g3gpvfan/Class3.LinearAlgebra.pdf?dl=0) -->
-<!-- - [Gilbert Strang's notes on Eigen analysis](http://math.mit.edu/linearalgebra/ila0601.pdf) -->
-<!-- - [An awesome video lecture on SVD](http://freevideolectures.com/Course/2052/Linear-Algebra/30) -->
+- [Lecture 3 slides](https://www.dropbox.com/s/tr3wzkud2s5fiij/Class3.LinearAlgebra.pdf?dl=0)
+- [Gilbert Strang's notes on Eigen analysis](http://math.mit.edu/linearalgebra/ila0601.pdf)
+- [An awesome video lecture on SVD](http://freevideolectures.com/Course/2052/Linear-Algebra/30)
 <!-- - [Short] -->
 
 
