@@ -89,13 +89,12 @@ We will be reviewing the fundamentals of Linear Algebra.
 - [Lecture 3 slides](https://www.dropbox.com/s/tr3wzkud2s5fiij/Class3.LinearAlgebra.pdf?dl=0)
 - [Gilbert Strang's notes on Eigen analysis](http://math.mit.edu/linearalgebra/ila0601.pdf)
 - [An awesome video lecture on SVD](http://freevideolectures.com/Course/2052/Linear-Algebra/30)
-<!-- - [Short] -->
 
 
-<!-- ### Lecture 4: Signal Representations -->
-<!-- We will be discussing the representation of signals, especially the DFT. -->
+### Lecture 4: Signal Representations
+We will be discussing the representation of signals, especially the DFT.
 
-<!-- - [Lecture 4 slides](https://www.dropbox.com/s/yd35tq6rugmz3gi/Class4.signalrepresentations.pdf?dl=0) -->
+- [Lecture 4 slides](https://www.dropbox.com/s/k7d86nezcwewex7/Class4.signalrepresentations.pdf?dl=0)
 
 
 <!-- ### Lecture 5: Eigenfeatures -->
