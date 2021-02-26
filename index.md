@@ -90,6 +90,10 @@ We will be reviewing the fundamentals of Linear Algebra.
 - [Gilbert Strang's notes on Eigen analysis](http://math.mit.edu/linearalgebra/ila0601.pdf)
 - [An awesome video lecture on SVD](http://freevideolectures.com/Course/2052/Linear-Algebra/30)
 
+#### Projections example: music score
+
+- [Lecture notes](https://www.dropbox.com/s/yjv9n95ux6ikngy/class3.projections-music-score.pdf?dl=0)
+
 
 ### Lecture 4: Signal Representations
 We will be discussing the representation of signals, especially the DFT.
@@ -97,10 +101,10 @@ We will be discussing the representation of signals, especially the DFT.
 - [Lecture 4 slides](https://www.dropbox.com/s/k7d86nezcwewex7/Class4.signalrepresentations.pdf?dl=0)
 
 
-<!-- ### Lecture 5: Eigenfeatures -->
-<!-- We will take a look at finding data-dependent bases. -->
+### Lecture 5: Eigenfeatures
+We will take a look at finding data-dependent bases.
 
-<!-- - [Lecture 5 slides](https://www.dropbox.com/s/gq0ev7n3usz5ctu/Class5.eigenfeatures.pdf?dl=0) -->
+- [Lecture 5 slides](https://www.dropbox.com/s/3pizuie2wu0dk1p/Class5.eigenfeatures.pdf?dl=0)
 
 <!-- ### Lecture 6: Sparse Representations in Image Processing - Invited -->
 <!-- We will take a look at finding data-dependent bases. -->
