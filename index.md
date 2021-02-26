@@ -99,6 +99,8 @@ We will be reviewing the fundamentals of Linear Algebra.
 We will be discussing the representation of signals, especially the DFT.
 
 - [Lecture 4 slides](https://www.dropbox.com/s/k7d86nezcwewex7/Class4.signalrepresentations.pdf?dl=0)
+- [Anti-aliasing slides](https://www.dropbox.com/s/dlugghj72ph21c3/Class4.anti-aliasing.pdf?dl=0)
+- [Anti-aliasing example](https://www.dropbox.com/s/86t3eigv1lgjn22/demo_subsampling.m?dl=0)
 
 
 ### Lecture 5: Eigenfeatures
