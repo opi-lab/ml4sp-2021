@@ -144,6 +144,8 @@ Each entry will denote if a note was found in that vector or not. For instance, 
 
 You can use the notes and the transcription matrix thus obtained to synthesize audio. Note that matrix multiplying the notes and the transcription will simply give you the magnitude spectrum. In order to create meaningful audio, you will need to use the phases as well. Once you have the phases included, you can use the stft to synthesize a signal from the matrix. Submit the synthesized audio along with the matrix. 
 
+### The following problems are optional
+
 <h3>Linear Algebra</h3>
   
 <!-- Let's warm up with a simple problem.  -->
