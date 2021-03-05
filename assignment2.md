@@ -12,7 +12,7 @@ permalink: /assignment2/
 
 Adapted from [Bhiksha Raj](http://mlsp.cs.cmu.edu/people/bhiksha/inde.php).
 
-###  Problem: 
+###  Problem 1: A simple face detector 
 
 You are given a corpus of facial images <a href="{{site.url}}a2/lfw1000.zip">[here]</a> from the <a href="http://www.itee.uq.edu.au/~conrad/lfwcrop/">LFWCrop</a> database. Each image in this corpus is 64 x 64 and grayscale. You must learn a typical (i.e. *Eigen*) face from them
 
@@ -55,7 +55,7 @@ Additional heuristics may also be required (appropriate setting of thresholds, c
 
 <a href="{{site.url}}assignment2_hints#additionalhints"><b>[More hints]</b></a>
 
-### Problem 4: A boosting based face detector
+### Problem 2: A boosting based face detector
 
 You are given a training corpus of facial images. You must learn the first <i>K</i> Eigen faces from the corpus. Set <i>K = 10</i> initially but vary it appropriately such that you get the best results. Mean and variance normalize the images before computing Eigenfaces.
 
@@ -89,7 +89,7 @@ NF \approx w_{NF,1}E_1 + w_{NF,2}E_2 + w_{NF,3}E_3 + \cdots + w_{NF,K}E_K
 <p>Train and test data for this problem is <a href="{{site.url}}a2/BoostingData.tar.gz">here</a>. It is a collection of face and non-face data.Use the data in the "train" subdirectory to train your classifier and classify the data in the "test" subdirectory. </p>
 
 
-### Problem 5
+### Problem 3
 
 <p>It will generally not be possible to represent a face exactly using a limited number of typical faces; as a result there will be an error between the face $F$ and the approximation in terms of the $K$ Eigenfaces. You can also compute the <i>normalized</i> total error in representation as:<br>
 \[
@@ -106,28 +106,20 @@ $NF \rightarrow \{w_{NF,1}, w_{NF,2}, \cdots, w_{NF,K}, err_{NF}\}$
 
 Learn and build a classifier in the same way you did for problem 3 but including normalized error as a feature. Use this classifier for Problem 4.
 
-<h3>Problem 6</h3>
+
+### Problem 4
 
 Scan the group photographs to detect faces using your adaboost classifier
 
 You can adjust the tradeoff between missing faces and false alarms by comparing the margin $H(x)$ of the Adaboost classifier to a threshold other than 0.
 
-<!-- ### Problem 7
-We will add a final problem on the use of independent component analysis for the face recognizer. This will be put up by next week. <br>
-<p>&nbsp; -->
 
-<h3>Submission Details</h3>
+### Submission Details
 
-<!-- <p>The homework is due at the beginning of class on October 31,2013. </p> -->
-<p><b>What to submit:</b></p>
-<ul>
-  
-  <li>A brief writeup of what you did</li>
-  <li>The segments that your detector found to be faces. You may either copy those segments into individual files into a folder, or mark them on the group photograph. Make sure I can understand which part(s) of the image was detected as a face.</li>
-  <li>The code for all of this</li>
-  
-</ul>
+**What to submit:**
 
-<!-- <p>Put the above in zipfile called **ml4sp_hw2.zip** and email it to the two instructors with MLSP hw2 in the subject line</p>
+- A brief writeup of what you did.
+- The segments that your detector found to be faces. You may either copy those segments into individual files into a folder, or mark them on the group photograph. Make sure I can understand which part(s) of the image was detected as a face.
+- The code for all of this.
 
-<p>Solutions may be emailed to James Ding or Varun Gupta, and must be cc-ed to Bhiksha. The message must have the subject line "MLSP assignment 1". It should include a report (1 page or longer) of what you did, and the resulting matrix as well as the synthesized audio. </p> -->
+
