@@ -107,6 +107,7 @@ We will be discussing the representation of signals, especially the DFT.
 We will take a look at finding data-dependent bases.
 
 - [Lecture 5 slides](https://www.dropbox.com/s/3pizuie2wu0dk1p/Class5.eigenfeatures.pdf?dl=0)
+- [SVD analysis for pipe damage detection](https://www.dropbox.com/s/4omanzrq7t4dtln/Liu_ultrasonics_2015.pdf?dl=0)
 
 
 ### Lecture 6: Face Detection
