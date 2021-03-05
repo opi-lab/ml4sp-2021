@@ -8,9 +8,9 @@ permalink: /assignment2/
 
 ## Assignment 2: A Simple Face Detector
 
-### Due date: November 2, 11:59 PM
+### Due date: April 14, 11:59 PM
 
-Adapted from [Bhiksha Raj](http://mlsp.cs.cmu.edu/people/bhiksha/index.php).
+Adapted from [Bhiksha Raj](http://mlsp.cs.cmu.edu/people/bhiksha/inde.php).
 
 ###  Problem: 
 
