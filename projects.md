@@ -1,11 +1,11 @@
 
 ## Project proposals
 
-The following are several of the project proposals that you will work until the end of semester. You must choose one of the following topics by **November 3rd**. Please email my with the topic you have chosen and the team members. If you would like to do something different, please email me and we can talk about it.
+You will work on a project until the end of semester. You must either choose one of the following topics or propose another topic of your interest related to your thesis by **April 4**. Please email me my with the topic you have chosen and the team members (maximum two member per team). If you would like to do something different, send me an email and we can talk about it.
 
-1. **Visual Eye-Tracking**
-	- Let’s say I am an individual with Amyotrophic lateral sclerosis (ALS) and I can only use my eyes to communicate with the outside world. While there exist systems that implement eye-tracking, I don’t want to spend $X,000 on such a system as it’s very expensive and I believe a simple camera with computer vision algorithms should be able to take care of this task. The task would be to track what pixels a human is looking at in an image or video.
-2. **Hawk-eye tracking**
+1. **Automated color correction**
+	- Print a color checker and use it to automatically correct color images.
+2. **Detecting **
 	- Implement a hawk-eye ball tracking stereo system as the ones used in tennis matches. You can use a table tennis ball, make a line with duck tape and throw it. We need the trajectory of the centroid of the ball. The tracking might need additional filtering. Kalman filter? 
 3. **Augmented Reality (AR)** 
 	- Project 3D objects (from CAD?) onto flat surface. Best if done on video with moving camera. You can use a sheet of paper or a TAG on top of flat surface for reference. The basis of this problem is to estimate pose of camera using information from the reference plane. You can use the five point target developed in the course.
