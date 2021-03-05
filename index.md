@@ -89,6 +89,7 @@ We will be reviewing the fundamentals of Linear Algebra.
 - [Lecture 3 slides](https://www.dropbox.com/s/tr3wzkud2s5fiij/Class3.LinearAlgebra.pdf?dl=0)
 - [Gilbert Strang's notes on Eigen analysis](http://math.mit.edu/linearalgebra/ila0601.pdf)
 - [An awesome video lecture on SVD](http://freevideolectures.com/Course/2052/Linear-Algebra/30)
+- [SVD tutorial](https://www.dropbox.com/s/eszzurr9a9nu3eo/Singular_Value_Decomposition_Tutorial.pdf?dl=0)
 
 #### Projections example: music score
 
