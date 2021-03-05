@@ -108,22 +108,25 @@ We will take a look at finding data-dependent bases.
 
 - [Lecture 5 slides](https://www.dropbox.com/s/3pizuie2wu0dk1p/Class5.eigenfeatures.pdf?dl=0)
 
+
+### Lecture 6: Face Detection
+We will take a look at finding data-dependent bases.
+
+- [Lecture 6 slides](https://www.dropbox.com/s/qz6i2ckk1l01udf/Class6.facedetection.pdf?dl=0)
+
+### Assignment 2
+A summary of Linear Algebra exercises. **Due date:** 2021-04-04
+
+- [Assignment 2]({{site.url}}assignment2)
+- [Assignment 2 - hints]({{site.url}}assignment2_hints)
+- [Upload link](https://www.dropbox.com/request/Sl2Ul3pyEtB1KSGEHkwT)
+
 <!-- ### Lecture 6: Sparse Representations in Image Processing - Invited -->
 <!-- We will take a look at finding data-dependent bases. -->
 
 <!-- - [Lecture 6 slides](https://www.dropbox.com/s/5yn5c4y7mu9zudn/Sparsity_Master_UTB_2018_2.pdf?dl=0) -->
 
-<!-- ### Lecture 7: Face Detection -->
-<!-- We will take a look at finding data-dependent bases. -->
 
-<!-- - [Lecture 7 slides](https://www.dropbox.com/s/isn3eobdk3vwdg3/Class6.facedetection.pdf?dl=0) -->
-
-<!-- ### Assignment 2 -->
-<!-- A summary of Linear Algebra exercises. **Due date:** 2018-11-03 -->
-
-<!-- - [Assignment 2]({{site.url}}assignment2) -->
-<!-- - [Assignment 2 - hints]({{site.url}}assignment2_hints) -->
-<!-- - [Upload link](https://www.dropbox.com/request/qEj4aXk2O8YJZrtqQio0) -->
 
 
 <!-- ### Lecture 8: Compressed Sensing - Invited -->
