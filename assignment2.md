@@ -63,7 +63,6 @@ You are given a training corpus of facial images. You must learn the first <i>K<
 \[
 F \approx w_{F,1}E_1 + w_{F,2}W_2 + w_{F,3}E_3 + \cdots + w_{F,K}E_K
 \]
-</font>
 where $E_i$ is the $i$<sup>th</sup> Eigen face and $w_{F,i}$ is the weight of the $i$<sup>th</sup> Eigen face, when composing face $F$.  $w_{F,i}$ can, of course, be computed as the dot product of $F$ and $E_i$  </p>
 
 
@@ -89,7 +88,7 @@ NF \approx w_{NF,1}E_1 + w_{NF,2}E_2 + w_{NF,3}E_3 + \cdots + w_{NF,K}E_K
 <p>Train and test data for this problem is <a href="{{site.url}}a2/BoostingData.tar.gz">here</a>. It is a collection of face and non-face data.Use the data in the "train" subdirectory to train your classifier and classify the data in the "test" subdirectory. </p>
 
 
-### Problem 3
+### Problem 3 (optional)
 
 <p>It will generally not be possible to represent a face exactly using a limited number of typical faces; as a result there will be an error between the face $F$ and the approximation in terms of the $K$ Eigenfaces. You can also compute the <i>normalized</i> total error in representation as:<br>
 \[
@@ -107,17 +106,17 @@ $NF \rightarrow \{w_{NF,1}, w_{NF,2}, \cdots, w_{NF,K}, err_{NF}\}$
 Learn and build a classifier in the same way you did for problem 3 but including normalized error as a feature. Use this classifier for Problem 4.
 
 
-### Problem 4
+### Problem 4 (optional)
 
 Scan the group photographs to detect faces using your adaboost classifier
 
 You can adjust the tradeoff between missing faces and false alarms by comparing the margin $H(x)$ of the Adaboost classifier to a threshold other than 0.
 
 
-### Submission Details
+### Submission Details    
 
 
-**What to submit:**
+**What to submit:**    
 
 - A brief writeup of what you did.
 - The segments that your detector found to be faces. You may either copy those segments into individual files into a folder, or mark them on the group photograph. Make sure I can understand which part(s) of the image was detected as a face.
