@@ -112,9 +112,10 @@ We will take a look at finding data-dependent bases.
 
 
 ### Lecture 6: Face Detection
-We will take a look at finding data-dependent bases.
+We will take a look at finding data-dependent bases and classification using AdaBoost.
 
 - [Lecture 6 slides](https://www.dropbox.com/s/qz6i2ckk1l01udf/Class6.facedetection.pdf?dl=0)
+- [A step by step Adaboost example](https://sefiks.com/2018/11/02/a-step-by-step-adaboost-example/ "A Step by Step Adaboost Example - Sefik Ilkin Serengil")
 
 ### Assignment 2
 A summary of Linear Algebra exercises. **Due date:** 2021-04-04
