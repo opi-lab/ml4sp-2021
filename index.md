@@ -123,12 +123,18 @@ A summary of Linear Algebra exercises. **Due date:** 2021-04-04
 - [Assignment 2 - hints]({{site.url}}assignment2_hints)
 - [Upload link](https://www.dropbox.com/request/Sl2Ul3pyEtB1KSGEHkwT)
 
-<!-- ### Lecture 6: Sparse Representations in Image Processing - Invited -->
-<!-- We will take a look at finding data-dependent bases. -->
-
-<!-- - [Lecture 6 slides](https://www.dropbox.com/s/5yn5c4y7mu9zudn/Sparsity_Master_UTB_2018_2.pdf?dl=0) -->
 
 
+### Lecture 7: Sparse Representations in Image Processing - Invited
+We will take a look at finding data-dependent bases.
+
+- [Lecture 7 slides](https://www.dropbox.com/s/5yn5c4y7mu9zudn/Sparsity_Master_UTB_2018_2.pdf?dl=0)
+
+### In-class activity
+We will reproduce the adaboost classifier from the Lecture 6 slides.
+
+- [Matlab code](https://www.dropbox.com/s/ze5oeb3gkqnplfg/adaboost_class_example.zip?dl=0)
+- [Upload link](https://www.dropbox.com/request/U2pBDMOyJLEs3RhARnWY)
 
 
 <!-- ### Lecture 8: Compressed Sensing - Invited -->
