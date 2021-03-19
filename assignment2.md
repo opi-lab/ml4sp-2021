@@ -94,7 +94,7 @@ NF \approx w_{NF,1}E_1 + w_{NF,2}E_2 + w_{NF,3}E_3 + \cdots + w_{NF,K}E_K
 \[
 err_F = \frac{1}{N}\parallel F - \sum_i w_{F,i}E_i \parallel^2
 \]
-where, $\parallel \bullet \parallel^2$  represents the sum of the squares of the error of each pixel, and $N$ represents the number of pixels in the image. <p>
+where, $\parallel \bullet \parallel^2$  represents the sum of the squares of the error of each pixel, and $N$ represents the number of pixels in the image. </p>
 
 Represent each face by the set of weights for the Eigen faces and the error, <i>i.e.</i> $F \rightarrow \{w_{F,1}, w_{F,2}, \cdots, w_{F,K}, err_F\}$
 
@@ -103,14 +103,16 @@ As in the case of faces, the approximation of the non-face images in terms of Ei
 Represent each of the non-face images by the set of weights <i>i.e.</i>
 $NF \rightarrow \{w_{NF,1}, w_{NF,2}, \cdots, w_{NF,K}, err_{NF}\}$
 
-Learn and build a classifier in the same way you did for problem 3 but including normalized error as a feature. Use this classifier for Problem 4.
+Learn and build a classifier in the same way you did for problem 3 but including normalized error as a feature. Use this classifier for Problem 4.       
+
+
 
 
 ### Problem 4 (optional)
 
-Scan the group photographs to detect faces using your adaboost classifier
+Scan the group photographs to detect faces using your adaboost classifier.
 
-You can adjust the tradeoff between missing faces and false alarms by comparing the margin $H(x)$ of the Adaboost classifier to a threshold other than 0.
+You can adjust the tradeoff between missing faces and false alarms by comparing the margin $H(x)$ of the Adaboost classifier to a threshold other than 0.       
 
 
 ### Submission Details    
