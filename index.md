@@ -146,8 +146,9 @@ We will take a look at finding data-dependent bases.
 #### In-class activity
 We will *play* a bit with ICA and PCA to find the data from mixed .
 
-- [Matlab code](https://www.dropbox.com/s/ze5oeb3gkqnplfg/adaboost_class_example.zip?dl=0)
-- [Upload link](https://www.dropbox.com/request/U2pBDMOyJLEs3RhARnWY)
+- [In class activity 2]({{site.url}}in-class-activity-ica)
+- [ICA programs](https://www.dropbox.com/s/0d9xhq1b1uupyim/ica-programs.zip?dl=0)
+- [ICA demo](https://www.dropbox.com/s/mvp9zyafw4qvkc7/pca_ica.zip?dl=0)
 
 <!-- ### Lecture 8: Compressed Sensing - Invited -->
 <!-- We will take a look at finding data-dependent bases. -->
