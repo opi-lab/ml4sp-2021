@@ -149,6 +149,7 @@ We will *play* a bit with ICA and PCA to find the data from mixed .
 - [In class activity 2]({{site.url}}in-class-activity-ica)
 - [ICA programs](https://www.dropbox.com/s/0d9xhq1b1uupyim/ica-programs.zip?dl=0)
 - [ICA demo](https://www.dropbox.com/s/mvp9zyafw4qvkc7/pca_ica.zip?dl=0)
+- [upload link](https://www.dropbox.com/request/pIBYqkwP9bzETSKD6e2J)
 
 <!-- ### Lecture 8: Compressed Sensing - Invited -->
 <!-- We will take a look at finding data-dependent bases. -->
