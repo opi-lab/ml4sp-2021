@@ -131,22 +131,30 @@ We will take a look at finding data-dependent bases.
 
 - [Lecture 7 slides](https://www.dropbox.com/s/5yn5c4y7mu9zudn/Sparsity_Master_UTB_2018_2.pdf?dl=0)
 
-### In-class activity
+#### In-class activity
 We will reproduce the adaboost classifier from the Lecture 6 slides.
 
 - [Matlab code](https://www.dropbox.com/s/ze5oeb3gkqnplfg/adaboost_class_example.zip?dl=0)
 - [Upload link](https://www.dropbox.com/request/U2pBDMOyJLEs3RhARnWY)
 
+### Lecture 8: Independent Component Analysis
+We will take a look at finding data-dependent bases.
+
+- [Lecture 8 slides](https://www.dropbox.com/s/pnokromxq7b9fo3/Class7.ica.pdf?dl=0)
+- [PCA and ICA](https://www.dropbox.com/s/6fuksd7cs4sguw8/PCA-ICA-Giron-Sierra.pdf?dl=0)
+
+#### In-class activity
+We will *play* a bit with ICA and PCA to find the data from mixed .
+
+- [Matlab code](https://www.dropbox.com/s/ze5oeb3gkqnplfg/adaboost_class_example.zip?dl=0)
+- [Upload link](https://www.dropbox.com/request/U2pBDMOyJLEs3RhARnWY)
 
 <!-- ### Lecture 8: Compressed Sensing - Invited -->
 <!-- We will take a look at finding data-dependent bases. -->
 
 <!-- - [Lecture 8 slides](https://www.dropbox.com/s/jfmd7rudbmw78w6/main_compressed_sensing_Bacca.pdf?dl=0) -->
 
-<!-- ### Lecture 9: Independent Component Analysis -->
-<!-- We will take a look at finding data-dependent bases. -->
 
-<!-- - [Lecture 9 slides](https://www.dropbox.com/s/hazdpd2jsqxy7i1/Class7.ica.pdf?dl=0) -->
 
 <!-- ### Lecture 10: Clustering -->
 <!-- We will take a look at finding data-dependent bases. -->
