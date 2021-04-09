@@ -168,10 +168,10 @@ In this course you are required to complete a short project, similar to the assi
 
 
 
-<!-- ### Lecture 10: Clustering -->
-<!-- We will take a look at finding data-dependent bases. -->
+### Lecture 9: Clustering
+We will take a look at the task of grouping a set of objects in such a way that objects in the same group (called a cluster) are more similar (in some sense) to each other than to those in other groups (clusters).
 
-<!-- - [Lecture 10 slides](https://www.dropbox.com/s/v5y1pn6eo9577dc/class8.clustering.pdf?dl=0) -->
+- [Lecture 9 slides](https://www.dropbox.com/s/9ljipjkwuyag1j6/class8.clustering.pdf?dl=0)
 
 <!-- ### Lecture 11: Expectation Maximization -->
 <!-- We will take a look at finding data-dependent bases. -->
