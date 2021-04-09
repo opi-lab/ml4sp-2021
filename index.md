@@ -151,6 +151,16 @@ We will *play* a bit with ICA and PCA to find the data from mixed .
 - [ICA demo](https://www.dropbox.com/s/mvp9zyafw4qvkc7/pca_ica.zip?dl=0)
 - [upload link](https://www.dropbox.com/request/pIBYqkwP9bzETSKD6e2J)
 
+
+### <mark>Projects</mark>
+
+In this course you are required to complete a short project, similar to the assignments, but you are free to choose the approach and the implementation. You will work in teams of two and you will deliver a project report in the IEEE paper format and a 15 minute presentation. 
+
+**The project is due June 5.**
+
+- [Project proposals and guidelines](projects)
+- [Upload link](https://www.dropbox.com/request/OFJ6RxSIldJQuWIxy29t)
+
 <!-- ### Lecture 8: Compressed Sensing - Invited -->
 <!-- We will take a look at finding data-dependent bases. -->
 
