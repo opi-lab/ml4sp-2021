@@ -174,11 +174,12 @@ We will take a look at the task of grouping a set of objects in such a way that 
 - [Lecture 9 slides](https://www.dropbox.com/s/9ljipjkwuyag1j6/class8.clustering.pdf?dl=0)
 - [Clustering](https://www.dropbox.com/s/bq6pgr7cldfw1xs/Clustering-Giron-Sierra.pdf?dl=0)
 
-<!-- ### Lecture 11: Expectation Maximization -->
-<!-- We will take a look at finding data-dependent bases. -->
+### Lecture 10: Expectation Maximization
+We now consider a probabilistic context in which each point has a certain probability of belonging to a particular class; in other words, one has to handle membership probabilities.
 
-<!-- - [Lecture 11 slides](https://www.dropbox.com/s/knd6ujaa55r3gh9/class9.expectationmaximization.pdf?dl=0) -->
-<!-- - [Matlab code](https://www.dropbox.com/s/ts9ik3bukszpatm/expectation_maximization.m?dl=0) -->
+- [Lecture 10 slides](https://www.dropbox.com/s/cbywjb9ifusszag/class10.expectationmaximization.pdf?dl=0)
+- [Matlab code](https://www.dropbox.com/s/ts9ik3bukszpatm/expectation_maximization.m?dl=0)
+- [Classification and probabilities](https://www.dropbox.com/s/5lb8iwq523sd3qg/Classification-probabilities-Giron-Sierra.pdf?dl=0)
 
 <!-- ### Lecture 12: Regression and Prediction -->
 <!-- We will take a look at finding data-dependent bases. -->
