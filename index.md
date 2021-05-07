@@ -196,6 +196,8 @@ Neural nets are a type of biologically inspired ML algorithm.
 
 - [Lecture 13 slides](https://www.dropbox.com/s/wd7f4sy60zxizh4/class14.cnn.pdf?dl=0)
 - [Deep learning applications](https://www.dropbox.com/s/61tb9gz1nvmtj1y/class14.bear2020-dlapplications-jhoerner-mathworks.pdf?dl=0)
+- [Deep learning example]({{site.url}}code/Keras_MNIST.ipynb)
+- [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/opi-lab/ml4sp-2021/blob/fe7a570ad70b2213510bfa76767d5f109fe89341/code/Keras_MNIST.ipynb)
 
 <!-- ### Lecture 13: Sparse and Overcomplete Representations -->
 <!-- We will take a look at finding data-dependent bases. -->
