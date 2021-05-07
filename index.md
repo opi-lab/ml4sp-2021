@@ -181,10 +181,18 @@ We now consider a probabilistic context in which each point has a certain probab
 - [Matlab code](https://www.dropbox.com/s/ts9ik3bukszpatm/expectation_maximization.m?dl=0)
 - [Classification and probabilities](https://www.dropbox.com/s/5lb8iwq523sd3qg/Classification-probabilities-Giron-Sierra.pdf?dl=0)
 
-<!-- ### Lecture 12: Regression and Prediction -->
-<!-- We will take a look at finding data-dependent bases. -->
+### Lecture 11: Regression and Prediction
+We will take a look at how to perform linear and non-linear regression.
 
-<!-- - [Lecture 12 slides](https://www.dropbox.com/s/eovgx1xmdduuxq0/Class11.regression.pdf?dl=0) -->
+- [Lecture 11 slides](https://www.dropbox.com/s/xqcimqbd1897vgc/Class11.regression.pdf?dl=0)
+
+### Lecture 12: Neural Nets
+Neural nets are a type of biologically inspired ML algorithm.
+
+- [Lecture 12 slides](https://www.dropbox.com/s/2mcl0tcwgg4i3j7/class13.neural-nets.pdf?dl=0)
+- [Neural networks intro](http://neuralnetworksanddeeplearning.com/chap1.html)
+
+### Lecture 13: Convolutional Neural Networks
 
 <!-- ### Lecture 13: Sparse and Overcomplete Representations -->
 <!-- We will take a look at finding data-dependent bases. -->
