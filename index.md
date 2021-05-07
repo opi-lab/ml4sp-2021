@@ -194,6 +194,9 @@ Neural nets are a type of biologically inspired ML algorithm.
 
 ### Lecture 13: Convolutional Neural Networks
 
+- [Lecture 13 slides](https://www.dropbox.com/s/wd7f4sy60zxizh4/class14.cnn.pdf?dl=0)
+- [Deep learning applications](https://www.dropbox.com/s/61tb9gz1nvmtj1y/class14.bear2020-dlapplications-jhoerner-mathworks.pdf?dl=0)
+
 <!-- ### Lecture 13: Sparse and Overcomplete Representations -->
 <!-- We will take a look at finding data-dependent bases. -->
 
