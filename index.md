@@ -209,8 +209,8 @@ Neural nets are a type of biologically inspired ML algorithm.
 
 <!-- - [Lecture 13 slides](https://www.dropbox.com/s/6g8lh3n1ahe3o7k/class12.sparseovercomplete.pdf?dl=0) -->
 
-<!-- ### Final exam -->
+### Final exam
 
-<!-- - [Exam]({{site.url}}pdfs/exam-ml4sp.pdf) -->
-<!-- - [Upload link](https://www.dropbox.com/request/ChBlKg6CuT5O2Tv5yBEX) -->
+- [Exam](https://www.dropbox.com/s/vq5m4qi6s1ejhlw/exam-ml4sp-2021.pdf?dl=0)
+- [Upload link](https://www.dropbox.com/request/P6ylL9w9A6cy1TmPwZIg)
 
